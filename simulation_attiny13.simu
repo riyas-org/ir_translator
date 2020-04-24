@@ -1,0 +1,42 @@
+<circuit type="simulide_0.1" noLinAcc="5" noLinStep="10" animate="0" speed="100000" reactStep="50">
+ 
+Node-27: 
+<item labelx="-16" labelrot="0" valLabely="0" y="-364" labely="-24" vflip="1" Show_id="false" id="Node-27" rotation="0" x="-316" valLabelx="0" itemtype="Node" hflip="1" objectName="Node-27" valLabRot="0"/>
+ 
+Oscope-25: 
+<item labelx="-16" labelrot="0" valLabely="0" y="-540" labely="-24" vflip="1" Show_id="false" Filter="0.29999999999999999" id="Oscope-25" rotation="0" x="-180" valLabelx="0" itemtype="Oscope" hflip="1" objectName="Oscope-25" valLabRot="0"/>
+ 
+Resistor-6: 
+<item Resistance="50" labelx="-12" objectName="Resistor-6" Show_res="true" y="-364" valLabRot="0" id="Resistor-6" rotation="0" hflip="1" vflip="1" x="-188" valLabelx="-16" labelrot="0" valLabely="6" itemtype="Resistor" labely="-24" Unit=" O" Show_id="false"/>
+ 
+Ground-5: 
+<item labelx="-16" labelrot="0" valLabely="0" y="-308" labely="-24" vflip="1" Show_id="false" id="Ground-5" rotation="0" x="-156" valLabelx="0" itemtype="Ground" hflip="1" objectName="Ground-5" valLabRot="0"/>
+ 
+Led-4: 
+<item Resistance="0.59999999999999998" Grounded="false" labelx="-16" objectName="Led-4" y="-364" valLabRot="0" id="Led-4" Threshold="2.3999999999999999" rotation="0" hflip="1" vflip="1" x="-284" valLabelx="0" labelrot="0" valLabely="0" itemtype="Led" MaxCurrent="0.029999999999999999" labely="-24" Color="0" Show_id="false"/>
+ 
+attiny13-3: 
+<item labelx="0" Program="rc5.hex" objectName="attiny13-3" y="-388" valLabRot="0" id="attiny13-3" Mhz="16" rotation="0" hflip="1" vflip="1" x="-388" valLabelx="0" Ser_Port="false" Ser_Monitor="false" labelrot="0" valLabely="0" itemtype="AVR" labely="-20" Show_id="true"/>
+ 
+Connector-9: 
+<item labelx="-16" startpinid="Led-4-rPin" objectName="Connector-9" y="-364" valLabRot="0" id="Connector-9" endpinid="Resistor-6-lPin" rotation="0" hflip="1" vflip="1" x="-268" valLabelx="0" labelrot="0" valLabely="0" itemtype="Connector" enodeid="Circ_eNode-10" labely="-24" pointList="-268,-364,-204,-364" Show_id="false"/>
+ 
+Connector-11: 
+<item labelx="-16" startpinid="Resistor-6-rPin" objectName="Connector-11" y="-364" valLabRot="0" id="Connector-11" endpinid="Ground-5-Gnd" rotation="0" hflip="1" vflip="1" x="-172" valLabelx="0" labelrot="0" valLabely="0" itemtype="Connector" enodeid="Circ_eNode-12" labely="-24" pointList="-172,-364,-156,-364,-156,-324" Show_id="false"/>
+ 
+Connector-7: 
+<item labelx="-16" startpinid="Led-4-lPin" objectName="Connector-7" y="-364" valLabRot="0" id="Connector-7" endpinid="Node-27-0" rotation="0" hflip="1" vflip="1" x="-300" valLabelx="0" labelrot="0" valLabely="0" itemtype="Connector" enodeid="enode-26" labely="-24" pointList="-300,-364,-316,-364" Show_id="false"/>
+ 
+Connector-26: 
+<item labelx="-16" startpinid="Oscope-25-PinP" objectName="Connector-26" y="-540" valLabRot="0" id="Connector-26" endpinid="Node-27-1" rotation="0" hflip="1" vflip="1" x="-300" valLabelx="0" labelrot="0" valLabely="0" itemtype="Connector" enodeid="enode-26" labely="-24" pointList="-300,-540,-316,-540,-316,-364" Show_id="false"/>
+ 
+Connector-28: 
+<item labelx="-16" startpinid="Node-27-2" objectName="Connector-28" y="-364" valLabRot="0" id="Connector-28" endpinid="attiny13-3-PB1" rotation="0" hflip="1" vflip="1" x="-316" valLabelx="0" labelrot="0" valLabely="0" itemtype="Connector" enodeid="enode-26" labely="-24" pointList="-316,-364,-348,-364" Show_id="false"/>
+ 
+PlotterWidget-15: 
+<item objectName="PlotterWidget-15" normalGeometry="" y="400" inputMethodHints="0" windowIconText="" maximized="false" accessibleDescription="" focusPolicy="0" frameSize="" toolTipDuration="-1" itemtype="Plotter" minimumSize="" x="0" minimized="false" childrenRegion="" height="200" contextMenuPolicy="1" accessibleName="" locale="" sizeIncrement="" windowTitle="" mouseTracking="false" childrenRect="" sizeHint="" layoutDirection="0" MaxVolt="500" MinVolt="-500" maximumSize="" fullScreen="false" statusTip="" maximumHeight="200" enabled="true" minimumSizeHint="" windowFilePath="" windowModified="false" frameGeometry="" rect="" modal="false" updatesEnabled="true" windowIcon="" autoFillBackground="false" maximumWidth="1000" isActiveWindow="true" sizePolicy="" palette="" geometry="" size="" width="669" baseSize="" acceptDrops="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" focus="false" visible="false" pos="" windowModality="0" windowOpacity="1" toolTip="" whatsThis="" styleSheet="" cursor="" minimumWidth="200" minimumHeight="200"/>
+ 
+SerialPortWidget-16: 
+<item objectName="SerialPortWidget-16" normalGeometry="" y="0" inputMethodHints="0" windowIconText="" maximized="false" accessibleDescription="" focusPolicy="0" frameSize="" toolTipDuration="-1" itemtype="SerialPort" minimumSize="" x="0" SettingsProp=",0,3,0,0,0" minimized="false" childrenRegion="" height="141" contextMenuPolicy="1" accessibleName="" locale="" sizeIncrement="" windowTitle="Settings" mouseTracking="false" childrenRect="" sizeHint="" layoutDirection="0" maximumSize="" fullScreen="false" statusTip="" maximumHeight="170" enabled="true" minimumSizeHint="" windowFilePath="" windowModified="false" frameGeometry="" rect="" modal="false" updatesEnabled="true" windowIcon="" autoFillBackground="false" maximumWidth="450" isActiveWindow="true" sizePolicy="" palette="" geometry="" size="" width="313" baseSize="" acceptDrops="false" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" focus="false" visible="false" pos="" windowModality="0" windowOpacity="1" toolTip="" whatsThis="" styleSheet="" cursor="" minimumWidth="0" minimumHeight="0"/>
+ 
+</circuit>
