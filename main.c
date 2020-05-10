@@ -146,12 +146,13 @@ int main()
 							{sat(nec_byte);}
 						else
 							{tv(nec_byte);}
-						_delay_ms(200);
-						RC5_Init();
+						//_delay_ms(200);
+						command=0;						
 						}
 											
 				}
-		sleep(); 	
+		sleep(); 
+		RC5_Init();
         }
     }
     
